@@ -1,6 +1,6 @@
 love.window.setTitle("Meliorare Day Counter")
 love.window.setMode( 600, 600 )
-love.graphics.setBackgroundColor(0.4, 0.7, 1)
+love.graphics.setBackgroundColor(0, 0, 0)
 font = love.graphics.setNewFont(24)
 
 function love.load()
