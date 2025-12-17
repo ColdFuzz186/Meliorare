@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Meliorare
+Comment=A day counter
+Exec=bash -c '/home/USER/Meliorare/run.sh'  #or whatever your path to run.sh is.
+Icon=/home/USER/Meliorare/icon.png  #of whatever your path to icon.png is
+Type=Application
+Terminal=false
