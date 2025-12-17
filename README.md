@@ -17,6 +17,7 @@ If you want the application to display as an icon:
 
 ```bash
 mv desktoptemplate ~/.local/share/applications/Meliorare.desktop
+```bash
 
 ## Setting the start date.
 The start date is initially set to the unix epoch, after clicking the desktop icon, or using run.sh while in the directory, click on the change start date.
