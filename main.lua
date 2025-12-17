@@ -3,6 +3,11 @@ love.window.setMode( 600, 600 )
 love.graphics.setBackgroundColor(0.4, 0.7, 1)
 font = love.graphics.setNewFont(24)
 
+function love.load()
+	local icon = love.image.newImageData("icon.png")
+	love.window.setIcon(icon)
+end
+
 -- State variables
 local days = ""
 local start_date = ""
