@@ -22,3 +22,6 @@ mv desktoptemplate ~/.local/share/applications/Meliorare.desktop
 ## Setting the start date.
 The start date will be empty at first, after clicking the desktop icon, or using run.sh while in the directory, click on the change start date.
 The start date is in the format month-day-year (So the 16th of december 2025 would be '2025-12-16')
+
+## Licence
+This project is licensed under the MIT licence - see the LICENSE file for details.
