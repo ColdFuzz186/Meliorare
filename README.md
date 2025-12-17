@@ -2,7 +2,7 @@
 
 # Meliorare
 A day counter for the Linux desktop built with Love2D
-If you installed Love2D using flatpak, you will have to manually change the start date in 'main.lua'
+If you installed Love2D using flatpak, you will have to manually change the start date in 'main.lua', you will also have to edit 'run.sh', there is a comment there that gives more detail.
 
 ## Files
 - 'main.lua'  -Main script.
@@ -20,5 +20,5 @@ mv desktoptemplate ~/.local/share/applications/Meliorare.desktop
 ```
 
 ## Setting the start date.
-The start date is initially set to the unix epoch, after clicking the desktop icon, or using run.sh while in the directory, click on the change start date.
-The start date is in the format month-day-year.
+The start date will be empty at first, after clicking the desktop icon, or using run.sh while in the directory, click on the change start date.
+The start date is in the format month-day-year (So the 16th of december 2025 would be '2025-12-16')

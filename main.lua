@@ -5,7 +5,7 @@ font = love.graphics.setNewFont(24)
 
 -- State variables
 local days = ""
-local start_date = "1970-01-01"
+local start_date = ""
 local editing = false
 local input_text = ""
 
