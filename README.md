@@ -2,6 +2,7 @@
 
 # Meliorare
 A day counter for the Linux desktop built with Love2D
+If you installed Love2D using flatpak, you will have to manually change the start date in 'main.lua'
 
 ## Files
 - 'main.lua'  -Main script.
