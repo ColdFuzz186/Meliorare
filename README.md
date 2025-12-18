@@ -1,8 +1,9 @@
 ⚠ THIS IS BUILT FOR LINUX! IT USES BASH FOR A LOT OF FUNCTIONALITY! IT WILL NOT WORK ON WINDOWS!
 
 # Meliorare
-A day counter for the Linux desktop built with Love2D
-If you installed Love2D using flatpak, you will have to manually change the start date in 'main.lua', you will also have to edit 'run.sh', there is a comment there that gives more detail.
+A day counter for the Linux desktop built with Love2D.
+
+- If you installed Love2D using flatpak, you will have to manually change the start date in 'main.lua', you will also have to edit 'run.sh', there is a comment there that gives more detail.
 
 ## Files
 - 'main.lua'  -Main script.
