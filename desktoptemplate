@@ -1,7 +1,10 @@
 [Desktop Entry]
+#Make sure you move this file to '~/.local/share/applications/Meliorare.desktop', and make sure you change file paths if needed.
 Name=Meliorare
 Comment=A day counter
-Exec=bash -c '/home/USER/Meliorare/run.sh'  #or whatever your path to 'run.sh' is. Make sure you replace 'USER' with your username.
-Icon=/home/USER/Meliorare/icon.png  #or whatever your path to 'icon.png' is. Make sure you replace 'USER' with your username.
+Exec=bash -c '/home/USER/Meliorare/run.sh'
+#^ Or whatever your path to 'run.sh' is. Make sure you replace 'USER' with your username.
+Icon=/home/USER/Meliorare/icon.png
+#^ Or whatever your path to 'icon.png' is. Make sure you replace 'USER' with your username.
 Type=Application
 Terminal=false
