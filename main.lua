@@ -1,4 +1,4 @@
-love.window.setTitle("Meliorare Day Counter")
+love.window.setTitle("Meliorare Day Counter")  --sets the title
 love.window.setMode( 600, 600 )
 love.graphics.setBackgroundColor(0.161, 0.173, 0.235)
 font = love.graphics.setNewFont(24)
