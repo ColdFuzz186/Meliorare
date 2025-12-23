@@ -6,7 +6,7 @@ font = love.graphics.setNewFont(24)
 
 function love.load()
 	local icon = love.image.newImageData("icon.png")
-	love.window.setIcon(icon)
+        love.window.setIcon(icon)
 end
 
 
@@ -29,6 +29,7 @@ end
 
 local button = {x = 200, y = 400, width = 200, height = 50, text = "Change Start Date"}
 button.width = font:getWidth(button.text) + 20   -- Text goes off the sides otherwise. 
+
 
 -- Calculates the days since the start date
 local function calculate_days()
@@ -60,9 +61,9 @@ calculate_days()
 --initial calculation
 calculate_days()
 
+
 -- Bigger font for the day
 local dayfont = love.graphics.newFont(100)
-
 
 
 function love.draw()
@@ -106,30 +107,32 @@ function love.draw()
 	    love.graphics.print(input_text .. "_", 160, 410)
 	end
 end
+
+
 -- Detects mouse button being pressed
 function love.mousepressed(mx, my, buttonPressed)
-	if buttonPressed == 1 and not editing then
-		if mx > button.x and mx < button.x + button.width and
+        if buttonPressed == 1 and not editing then
+	        if mx > button.x and mx < button.x + button.width and
 		   my > button.y and my < button.y + button.height then
-			        editing = true
-				input_text = start_date  --starts at current start_date
-			end
+		        editing = true
+			input_text = start_date  --starts at current start_date
 		end
-	end  -- I don't know why there is a gap, but it works fine
-
+	end
+end  
 
 	
 function love.textinput(t)
-	if editing then
-		input_text = input_text .. t
+        if editing then
+	        input_text = input_text .. t
 	end
 end
+
 
 -- Key presses
 function love.keypressed(key)
 	if editing then
 		if key == "backspace" then
-			input_text = input_text:sub(1, -2)
+		        input_text = input_text:sub(1, -2)
 		elseif key == "return" then
 			start_date = input_text
 			calculate_days()
