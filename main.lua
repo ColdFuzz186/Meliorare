@@ -58,7 +58,7 @@ load_start_date()
 calculate_days()
 
 
---initial calculation
+-- Initial calculation
 calculate_days()
 
 
@@ -115,7 +115,7 @@ function love.mousepressed(mx, my, buttonPressed)
 	        if mx > button.x and mx < button.x + button.width and
 		   my > button.y and my < button.y + button.height then
 		        editing = true
-			input_text = start_date  --starts at current start_date
+			input_text = start_date  -- Starts at current start_date
 		end
 	end
 end  
@@ -139,7 +139,7 @@ function love.keypressed(key)
 			save_start_date()
 			editing = false
 		elseif key == "escape" then
-			editing = false --cancels editing
+			editing = false -- Cancels editing
 		end
 	end
 end
