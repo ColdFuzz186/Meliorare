@@ -11,7 +11,7 @@ end
 
 
 -- State variables
-local days = ""
+local days = ""     -- Tracks the passing days as we are reminded that we should make the most of our time
 local start_date = ""
 local editing = false
 local input_text = ""
